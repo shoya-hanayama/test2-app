@@ -1,0 +1,69 @@
+/*
+  スティッキースクロール効果のためのスタイル
+*/
+#hero-section {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#feature-section,
+#slider-section {
+  position: relative;
+  z-index: 2;
+}
+
+/* スライダーのスクロールバーを非表示にするスタイル */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* --- セクション1のスタイル --- */
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 予備の背景画像を指定 */
+  background-image: url('https://images.unsplash.com/photo-1552010099-534394035c59?q=80&w=2940&auto=format&fit=crop');
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  max-width: 90%;
+  padding-bottom: 10vh;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
