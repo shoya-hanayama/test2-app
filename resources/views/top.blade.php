@@ -58,30 +58,35 @@
             }
         });
 
-        tl.to(introScreen, { backgroundColor: 'white', duration: 3, ease: 'power2.inOut' })
-          .to('#path7182', { fill: '#fac400', duration: 3, ease: 'power2.inOut' }, '<')
-          .to('#path19571', { fill: '#ffdb01', duration: 3, ease: 'power2.inOut' }, '<');
-
-        tl.to('#banana-container', { y: 80, opacity: 0, duration: 1, ease: 'power2.in', delay: 0.3 });
-
-        tl.to(introScreen, {
-            opacity: 0,
-            duration: 1,
-            ease: 'power1.inOut',
-            onComplete: () => {
-                introScreen.remove();
+        // 8秒後にイントロ画面をフェードアウトし、メインコンテンツを表示
+        setTimeout(() => {
+            tl.to(introScreen, {
+                opacity: 0,
+                duration: 1,
+                ease: 'power1.inOut',
+                onComplete: () => {
+                    introScreen.remove();
+                }
+            });
+            // 動画要素も同時にフェードアウトさせる
+            if (bananaVideo) {
+                tl.to(bananaVideo, {
+                    opacity: 0,
+                    duration: 1,
+                    ease: 'power1.inOut'
+                }, '<'); // '<' は前のTweenと同時に開始することを意味します
             }
-        }, "-=1");
 
-        tl.to(mainContentWrapper, {
-            opacity: 1,
-            visibility: 'visible',
-            duration: 1.5,
-            ease: 'power2.out',
-            onStart: () => {
-                mainContentWrapper.classList.remove('content-hidden-on-load');
-            }
-        }, '-=0.5');
+            tl.to(mainContentWrapper, {
+                opacity: 1,
+                visibility: 'visible',
+                duration: 1.5,
+                ease: 'power2.out',
+                onStart: () => {
+                    mainContentWrapper.classList.remove('content-hidden-on-load');
+                }
+            }, '-=0.5');
+        }, 8000); // 8000ミリ秒 = 8秒
     };
 </script>
 @endpush

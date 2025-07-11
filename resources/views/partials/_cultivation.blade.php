@@ -36,14 +36,14 @@
       </div>
 
       {{-- カード2 --}}
-      <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col">
+      <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col md:flex-col-reverse">
         <div class="absolute top-[-0.5rem] left-[-0.5rem] bg-gradient-to-br from-yellow-400 to-amber-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 shadow-lg" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">2</div>
-        <div class="h-1/2 p-6 flex flex-col justify-center text-center order-first">
+        <div>
+          <img src="{{ asset('images/cultivation/2.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="育成" class="w-full h-full object-cover">
+        </div>
+        <div class="p-6 flex flex-col justify-center text-center flex-grow">
           <h3 class="text-2xl font-bold text-gray-800 mb-3">生育管理：健やかな成長のために</h3>
           <p class="text-gray-600 leading-relaxed">植え付けられた苗は、温暖な気候とたっぷりの水を好み、ぐんぐん成長します。この期間、農園では、水やりや雑草の除去、栄養状態を保つための施肥など、きめ細やかな管理が行われます。バナナの木のように見える部分は、実際には葉が何層にも重なった「偽茎（ぎけい）」で、本当の茎は地中にあります。</p>
-        </div>
-        <div class="h-1/2">
-          <img src="{{ asset('images/cultivation/2.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="育成" class="w-full h-full object-cover">
         </div>
       </div>
 
