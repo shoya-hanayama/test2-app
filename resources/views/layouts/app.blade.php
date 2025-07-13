@@ -150,6 +150,6 @@
   </script>
   {{-- 各ページ固有のスクリプト --}}
   @stack('scripts')
-</body>
+  </body>
 
 </html>
