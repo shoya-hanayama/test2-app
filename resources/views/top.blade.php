@@ -11,5 +11,7 @@
         @include('partials._features')
         @include('partials._slider')
         @include('partials._cultivation')
+        @include('partials._company_profile')
+        @include('partials._contact')
     </div>
 @endsection

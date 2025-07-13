@@ -107,7 +107,7 @@
   <footer class="w-full">
     <div class="bg-yellow-50 text-center py-8">
       <div class="flex flex-col items-center justify-center space-y-4">
-        <img src="https://placehold.co/150x50/000000/FFFFFF?text=LOGO" alt="フッターロゴ" class="h-12">
+        <img src="{{ asset('images/logo.png') }}" alt="フッターロゴ" class="h-12">
         <p class="text-sm text-gray-500">&copy; {{ date('Y') }} Your Company Name. All rights reserved.</p>
       </div>
     </div>
