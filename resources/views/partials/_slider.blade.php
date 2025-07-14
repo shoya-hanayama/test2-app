@@ -1,4 +1,4 @@
-<section id="slider-section" class="w-full min-h-screen bg-white flex flex-col justify-start pt-24">
+<section id="slider-section" class="w-full bg-white flex flex-col justify-center py-20 sticky top-0 z-20 min-h-screen">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
         <div class="relative">
