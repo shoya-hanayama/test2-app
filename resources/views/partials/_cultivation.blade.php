@@ -11,7 +11,7 @@
 </style>
 @endpush
 
-<section id="cultivation-section" class="w-full min-h-screen bg-gray-50 flex flex-col items-center justify-center opacity-0 py-12">
+<section id="cultivation-section" class="w-full min-h-screen bg-gray-50 flex flex-col items-center justify-center opacity-0 py-12 sticky top-0 z-10">
   {{-- タイトル --}}
   <div class="text-center mb-12">
     <h2 class="text-3xl md:text-4xl font-bold text-gray-800">

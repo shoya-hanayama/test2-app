@@ -57,8 +57,8 @@
             <img src="{{ asset('images/logo.png') }}" onerror="this.src='https://placehold.co/120x40/000000/FFFFFF?text=LOGO';" alt="ロゴ" class="h-10">
           </a>
           {{-- 【修正点】「バナナ」を「こだわり」に変更し、リンク先を指定 --}}
-          <a href="#" class="text-gray-700 font-bold hover:text-blue-600 transition-colors duration-300">会社について</a>
-          <a href="#" class="text-gray-700 font-bold hover:text-blue-600 transition-colors duration-300">お問い合わせ</a>
+          <a href="#company-profile-section" class="text-gray-700 font-bold hover:text-blue-600 transition-colors duration-300">会社について</a>
+          <a href="#contact-section" class="text-gray-700 font-bold hover:text-blue-600 transition-colors duration-300">お問い合わせ</a>
         </div>
         <!-- Mobile Header -->
         <div class="md:hidden flex justify-between items-center w-full">
@@ -90,8 +90,8 @@
             <a href="#feature-section" class="text-gray-800 text-lg hover:text-blue-600">こだわり</a>
             <a href="#" class="text-gray-800 text-lg hover:text-blue-600">バナナ</a>
             {{-- 【修正点】「バナナ」を「こだわり」に変更し、リンク先を指定 --}}
-            <a href="#" class="text-gray-800 text-lg hover:text-blue-600">会社について</a>
-            <a href="#" class="text-gray-800 text-lg hover:text-blue-600">お問い合わせ</a>
+            <a href="#company-profile-section" class="text-gray-800 text-lg hover:text-blue-600">会社について</a>
+            <a href="#contact-section" class="text-gray-800 text-lg hover:text-blue-600">お問い合わせ</a>
           </nav>
         </div>
       </div>

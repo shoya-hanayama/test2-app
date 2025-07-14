@@ -6,7 +6,7 @@
 </style>
 @endpush
 
-<section id="company-profile-section" class="w-full bg-white py-20 relative z-50">
+<section id="company-profile-section" class="w-full bg-white py-20 relative z-10">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
