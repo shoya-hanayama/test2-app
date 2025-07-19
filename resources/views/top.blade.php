@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('body_class', 'full-screen')
+
 @section('content')
     @include('partials._hero')
     @include('partials._features')

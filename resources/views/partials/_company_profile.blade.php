@@ -28,7 +28,7 @@
 </style>
 @endpush
 
-<section id="company-profile-section" class="w-full py-20 md:py-28 relative z-10">
+<section id="company-profile-section" class="w-full py-20 relative z-10" style="background-image: url('ここに新しい背景画像のURLを挿入してください'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
 
         {{-- タイトルエリア --}}

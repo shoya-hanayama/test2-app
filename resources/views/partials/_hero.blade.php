@@ -1,4 +1,4 @@
-<section id="hero-section" class="hero-section sticky top-0 z-40" style="background-image: url('images/top_section.png')">
+<section id="hero-section" class="hero-section z-40" style="background-image: url('images/top_section.png')">
   <div class="hero-text">
     <h1>いちばんの太陽を。</h1>
     <p>
