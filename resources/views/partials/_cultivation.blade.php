@@ -11,7 +11,7 @@
 </style>
 @endpush
 
-<section id="cultivation-section" class="w-full min-h-screen bg-white flex flex-col items-center justify-center opacity-0 py-12 sticky top-0 z-10">
+<section id="cultivation-section" class="w-full bg-white flex flex-col items-center justify-center opacity-0 py-12 sticky top-0 z-10">
   {{-- タイトル --}}
   <div class="text-center mb-12">
     <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
@@ -27,7 +27,7 @@
       <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col">
         <div class="absolute top-[-0.5rem] left-[-0.5rem] bg-gradient-to-br from-yellow-400 to-amber-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 shadow-lg" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">1</div>
         <div class="h-1/2">
-          <img src="{{ asset('images/cultivation/1.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="種植え" class="w-full h-full object-cover">
+          <img src="{{ asset('images/cul/cul_1.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="種植え" class="w-full h-full object-cover">
         </div>
         <div class="h-1/2 p-6 flex flex-col justify-center text-center">
           <h3 class="text-2xl font-bold text-gray-800 mb-3">育苗と植え付け：未来のバナナの第一歩</h3>
@@ -39,7 +39,7 @@
       <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col md:flex-col-reverse">
         <div class="absolute top-[-0.5rem] left-[-0.5rem] bg-gradient-to-br from-yellow-400 to-amber-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 shadow-lg" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">2</div>
         <div>
-          <img src="{{ asset('images/cultivation/2.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="育成" class="w-full h-full object-cover">
+          <img src="{{ asset('images/cul/cul_2.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="育成" class="w-full h-full object-cover">
         </div>
         <div class="p-6 flex flex-col justify-center text-center flex-grow">
           <h3 class="text-2xl font-bold text-gray-800 mb-3">生育管理：健やかな成長のために</h3>
@@ -51,7 +51,7 @@
       <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col">
         <div class="absolute top-[-0.5rem] left-[-0.5rem] bg-gradient-to-br from-yellow-400 to-amber-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 shadow-lg" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">3</div>
                 <div class="h-1/2">
-                    <img src="{{ asset('images/cultivation/3.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="収穫" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/cul/cul_3.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="収穫" class="w-full h-full object-cover">
                 </div>
         <div class="h-1/2 p-6 flex flex-col justify-center text-center">
           <h3 class="text-2xl font-bold text-gray-800 mb-3">開花と結実、そして袋がけ</h3>
@@ -63,7 +63,7 @@
       <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col">
         <div class="absolute top-[-0.5rem] left-[-0.5rem] bg-gradient-to-br from-yellow-400 to-amber-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 shadow-lg" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">4</div>
         <div class="h-1/2">
-          <img src="{{ asset('images/cultivation/4.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="収穫" class="w-full h-full object-cover">
+          <img src="{{ asset('images/cul/cul_4.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="収穫" class="w-full h-full object-cover">
         </div>
         <div class="h-1/2 p-6 flex flex-col justify-center text-center">
           <h3 class="text-2xl font-bold text-gray-800 mb-3">収穫：最適なタイミングを見極めて</h3>
@@ -75,7 +75,7 @@
       <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col md:flex-col-reverse">
         <div class="absolute top-[-0.5rem] left-[-0.5rem] bg-gradient-to-br from-yellow-400 to-amber-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 shadow-lg" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">5</div>
         <div>
-          <img src="{{ asset('images/cultivation/5.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="選別" class="w-full h-full object-cover">
+          <img src="{{ asset('images/cul/cul_5.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="選別" class="w-full h-full object-cover">
         </div>
         <div class="p-6 flex flex-col justify-center text-center flex-grow">
           <h3 class="text-2xl font-bold text-gray-800 mb-3">選別と洗浄：品質を保つための重要な工程</h3>
@@ -87,7 +87,7 @@
       <div class="cultivation-card opacity-0 transform translate-y-8 bg-white rounded-lg shadow-lg overflow-hidden relative flex flex-col">
         <div class="absolute top-[-0.5rem] left-[-0.5rem] bg-gradient-to-br from-yellow-400 to-amber-500 text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-xl z-10 shadow-lg" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">6</div>
         <div class="h-1/2">
-          <img src="{{ asset('images/cultivation/6.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="出荷" class="w-full h-full object-cover">
+          <img src="{{ asset('images/cul/cul_6.png') }}" onerror="this.src='https://placehold.co/400x300/e2e8f0/333?text=PROCESS';" alt="出荷" class="w-full h-full object-cover">
         </div>
         <div class="h-1/2 p-6 flex flex-col justify-center text-center">
           <h3 class="text-2xl font-bold text-gray-800 mb-3">箱詰めと輸送：世界中の食卓へ</h3>
